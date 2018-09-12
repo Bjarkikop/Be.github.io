@@ -1,2 +1,2 @@
 # Be.github.io
-[Verkefni 1.](verkefni-1/index.html)
+[Verkefni 1.](Verkefni-1/index.html)
