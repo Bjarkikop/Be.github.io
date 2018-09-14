@@ -1,4 +1,4 @@
-*. {
+* {
     box-sizing: border-box;
 }
 
@@ -29,32 +29,20 @@ li {
 .inlineBlock {
     display: inline-block;
 }
-.box 1-3 {
-    width: 33.33%
-    border: 1px solid;
-    padding: 1em;
+.row div {
+    float: left;
 }
-.box 1-3 {
-    width: 33.33%
-    border: 1px solid;
-    padding: 1em;
-}
-.box 1-3 {
-    width: 33.33%
+
+.box-1-3 {
+    width: 33.33%;
     border: 1px solid;
     padding: 1em;
 }
 
-.box 1-2 {
-    width: 50%
+.box-1-2 {
+    width: 50%;
     border: 1px solid;
     padding: 1em;
 }
-.box 1-2 {
-    width: 50%
-    border: 1px solid;
-    padding: 1em;
-}
-.row div {
-    float: left;
-}
+
+
