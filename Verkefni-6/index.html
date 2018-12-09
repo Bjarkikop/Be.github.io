@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+.wrapper {
+	background-color: burlywood;
+}
+
+.header {
+  background-color: whitesmoke;
+  color: black;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: blanchedalmond;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: black;
+}
+
+.aside {
+  background-color: blanchedalmond;
+  padding: 15px;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+.marvel {
+	background-color: blanchedalmond;
+	color: black;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body class="wrapper">
+
+<div class="header">
+  <h1>Verkefni 6</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="#">Sveigjanleg Vefhönnun</a></li>
+      <li><a href="myndir/myndir.html">Myndnotkun</a></li>
+      <li><a href="https://gridbyexample.com/">Grid By Example</a></li>
+      <li><a href="https://scrimba.com/g/gR8PTE">Css Grid</a></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9 marvel">
+    <h1>Marvel</h1>
+    <p>Marvel byrjaði árið 1939 sem Timely Publications, og snemma á sjöunda áratugnum breyttist það í Atlas Comics. Þeir byrjuðu að kalla sig Marvel árið 1961,, þegar fyrirtækið hóf The Fantastic Four og aðrar hetjusögur sem voru búnar til af Steve Ditko, Stan Lee, Jack Kirby og mörgum öðrum.</p>
+	<p>Mest þekktu Marvel persónur  eru Spider-Man, Iron Man, Captain America, Thor, Hulk, Captain Marvel, Black Panther, Deadpool, Doctor Strange, Wolverine, Daredevil, Ghost Rider og Punisher. Einnig eru ofurhetju lið eins og Avengers, X-Men, Fantastic Four, The Guardians of The Galaxy.
+		Það hefur gert ótalmargar myndir og sjónvarpsseríur um þessar hetjur sem selja mörg hundruð milljóna og það virðist ekki að fara hætta á komandi árum.</p>
+</div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Japanskar Staðreyndir</h2>
+      <p>Tuttugu og einn prósent af Japanska íbúafjöldanum eru yfir 65 ára gamalt sem er hæsta hlutfallið í heiminum þar sem það eru fleiri aldraðir en börn.</p>
+	  <p>Þegar japanskt fólk hittist beygja þau sig venjulega í stað þess að hrista hendur og beygja sig dýpra þegar þau vilja sýna meiri virðingu</p> 
+	  <h2>Pink Floyd</h2>
+	  <p>Pink Floyd eru þekktir fyrir lifandi sýningar með sjónrænum áhrifum. Í upphafi ferilsins notuðu þeir skjávarpa og litaða smokka sem fóru yfir ljósin sem virkuðu sem sjónræn áhrif. </p>
+	</div>
+  </div>
+</div>
+
+<div class="footer">
+  <p><h2>Nafn - Bjarki</h2></p>
+</div>
+
+</body>
+</html>
