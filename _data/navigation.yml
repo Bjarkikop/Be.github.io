@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: Git svör
+  link: /gitsvor.html
+
+- name: Um Mig
+  link: /about.html
+
+- name: Blog
+  link : /blog.html
+- name: Staff
+  link: /staff.html
