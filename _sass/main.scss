@@ -1,22 +1,26 @@
 .current {
     color: red;
   }
-body {
-    background-color: lightblue;
-}
+
 $primary-color: white;
 $font-stack: sans-serif;
 $bg-color: blue; 
-$nav-color: #2c3e50;
+$nav-color: darkblue;
 body{
     font: $font-stack;
     color: $primary-color;
-    background-color: $bg-color;
-}
+    background-color: $bg-color; 
+ }
+ body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 60em;
+    margin: 0 auto;
+    padding-top: 2em;
+ }
 
 nav {
     ul {
-        background: $nav-color;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -30,6 +34,28 @@ nav {
         display: inline-block;
         padding: 10px 16px;
         text-decoration: none;
+        background-color: $nav-color;
     }
+
   }
-  
+$bg-color-col: darkblue;
+$border-color: lightblue;
+.midja{
+    background-color: $bg-color-col;
+    border: $border-color solid;
+    padding: 8px;
+}
+.haegri{
+    background-color: $bg-color-col;
+    border: $border-color solid;
+    padding: 8px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: darkblue;
+    text-align: center;
+}

@@ -2,15 +2,18 @@
   color: red; }
 
 body {
-  background-color: lightblue; }
-
-body {
   font: sans-serif;
   color: white;
   background-color: blue; }
 
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 60em;
+  margin: 0 auto;
+  padding-top: 2em; }
+
 nav ul {
-  background: #2c3e50;
   margin: 0;
   padding: 0;
   list-style: none; }
@@ -20,4 +23,24 @@ nav a {
   color: red;
   display: inline-block;
   padding: 10px 16px;
-  text-decoration: none; }
+  text-decoration: none;
+  background-color: darkblue; }
+
+.midja {
+  background-color: darkblue;
+  border: lightblue solid;
+  padding: 8px; }
+
+.haegri {
+  background-color: darkblue;
+  border: lightblue solid;
+  padding: 8px; }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: darkblue;
+  text-align: center; }
