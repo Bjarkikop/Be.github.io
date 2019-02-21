@@ -11,7 +11,8 @@ body {
   grid-template-columns: 1fr 1fr;
   max-width: 60em;
   margin: 0 auto;
-  padding-top: 2em; }
+  padding-top: 2em;
+  font: sans-serif; }
 
 nav ul {
   margin: 0;
@@ -42,7 +43,7 @@ nav a {
   bottom: 0;
   width: 100%;
   background-color: white;
-  color: darkblue;
+  color: red;
   text-align: center; }
 
 footer {
