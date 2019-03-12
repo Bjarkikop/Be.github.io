@@ -4,4 +4,3 @@ title: Blog
 ---
 
 {% include vikings.html %}
-{% include footer.html %}
