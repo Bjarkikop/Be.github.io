@@ -625,3 +625,33 @@ $mouse-width: 2.5rem;
     stroke: currentColor;
     fill: red;
   }
+
+  .users {
+	table-layout: fixed;
+	width: 200%;
+	white-space: nowrap;
+	border: white solid;
+  }
+  .row-year {
+	width: 40%;
+  }
+  .row-pop {
+	width: 30%;
+  }
+  .users td {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
+  .users th {
+	background: darkblue;
+	color: white;
+  }
+  .users td,
+  .users th {
+	text-align: left;
+	padding: 5px 10px;
+  }
+  .users tr:nth-child(even) {
+	background: darkblue;
+  }
