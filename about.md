@@ -2,8 +2,6 @@
 layout: default
 title: About
 ---
-
-
-{% include navigation.html %}
+{% include nav2.html %}
 {% include ummig.html %}
 {% include ball.html %}
