@@ -2,5 +2,5 @@
 layout: default
 title: Blog
 ---
-{% include nav2.html %}
-{% include vikings.html %}
+{% include tickets.html %}
+{% include map.html %}

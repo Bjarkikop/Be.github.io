@@ -3,14 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }}</title>
+    <title>Z company</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/assets/css/styles.css" />
-    
+    <STYLE>A {text-decoration: none;} </STYLE>
 </head>
 <body>
+    <div id="header">
+        <div id="logo">
+            <div id="logo_text">
+            <h1><a href="index.html"><strong>Ghost</strong><span class="logo_colour"> Entertainment</span></a></h1>
+            <h2>Where Real Music Emerges From</h2>
+            </div>
+            {% include ghost.html %}
+        </div>
+        <div id="menubar">
+            <ul id="menu">
+            <li class="selected"><a href="index.html"><strong>Home</strong></a></li>
+            <li><a href="blog.html"><strong>Tickets</strong></a></li>
+            <li><a href="gitsvor.html"><strong>Audition</strong></a></li>
+            <li><a href="about.html"><strong>Artists</strong></a></li>
+            </ul>
+        </div>
 
-    {% include animation.html %}
+    </div>
+    
     {{ content }}
 </body>
+<footer>
+    <div id="footer">
+            <strong>Bjarki Ellertsson</strong> | <a href="https://github.com/Bjarkikop"><strong>GITHUB</strong></a>
+    </div>
+</footer>
 </html>
